@@ -1,0 +1,44 @@
+.container {
+  /* border: 2px solid red; */
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  padding: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  width: 1500px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.left {
+  /* border: 2px solid blue; */
+  margin-right: 40px;
+  width: 330px;
+}
+.left img {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.right {
+  /* border: 2px solid black; */
+  width: 1000px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.designation {
+  font-size: 20px;
+}
+.education {
+  font-size: 20px;
+}
+.specilization {
+  font-size: 20px;
+}
+.p1,
+.p2,
+.p3 {
+  font-size: 20px;
+}
