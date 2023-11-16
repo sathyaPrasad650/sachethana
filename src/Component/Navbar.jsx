@@ -9,7 +9,13 @@ export const Navbar = () => {
       <div className={navbarStyle.menu}>TESTIMONIALS</div>
       <div className={navbarStyle.menu}>GALLERY</div>
       <div className={navbarStyle.menu}>PORTFOLIO</div>
-      <div className={navbarStyle.menu}>APPOINTMENT</div>
+      <a
+        href="https://forms.gle/bkMgYnij4GoBmEe69"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div className={navbarStyle.menu}>APPOINTMENT</div>
+      </a>
       <div className={navbarStyle.menu}>CONTACT US</div>
     </div>
   );
